@@ -48,7 +48,7 @@ export default function Header() {
           ))}
         </nav>
       )}
-    
+      <div className="h-1 w-full bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-400" />
     </header>
   );
 }
