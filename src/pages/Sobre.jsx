@@ -27,8 +27,8 @@ const Sobre = () => {
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-600">
-            O Mundo Mágico nasceu com a ideia de levar alegria e
-            imaginação para o dia a dia das crianças. Mais do que
+            O Mundo Mágico nasceu com o propósito de levar alegria
+            e imaginação para o dia a dia das crianças. Mais do que
             oferecer brinquedos, queremos fazer parte de momentos
             que ficam na memória: uma descoberta, uma brincadeira
             em família ou uma nova aventura inventada a cada dia.
@@ -46,7 +46,7 @@ const Sobre = () => {
       </div>
 
       <div className="grid grid-cols-1 gap-6 px-6 py-12 md:grid-cols-2 xl:grid-cols-3">
-        <div className="rounded-2xl border border-purple-100 bg-white px-6 py-8 shadow-md transition-all duration-300 hover:-translate-y-2 hover:border-pink-300 hover:shadow-xl">
+        <div className="rounded-2xl border border-purple-100 bg-white px-6 py-8 shadow-md transition-all duration-300 hover:-translate-y-2 hover:border-purple-300 hover:shadow-xl hover:shadow-purple-400">
           <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-purple-100 text-3xl">
             📖
           </div>
@@ -65,7 +65,7 @@ const Sobre = () => {
           </p>
         </div>
 
-        <div className="rounded-2xl border border-purple-100 bg-white px-6 py-8 shadow-md transition-all duration-300 hover:-translate-y-2 hover:border-pink-300 hover:shadow-xl">
+        <div className="rounded-2xl border border-purple-100 bg-white px-6 py-8 shadow-md transition-all duration-300 hover:-translate-y-2 hover:border-purple-300 hover:shadow-xl hover:shadow-purple-400">
           <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-pink-100 text-3xl">
             🎯
           </div>
@@ -83,7 +83,7 @@ const Sobre = () => {
           </p>
         </div>
 
-        <div className="rounded-2xl border border-purple-100 bg-white px-6 py-8 shadow-md transition-all duration-300 hover:-translate-y-2 hover:border-pink-300 hover:shadow-xl md:col-span-2 xl:col-span-1">
+        <div className="rounded-2xl border border-purple-100 bg-white px-6 py-8 shadow-md transition-all duration-300 hover:-translate-y-2 hover:border-purple-300 hover:shadow-xl hover:shadow-purple-400 md:col-span-2 xl:col-span-1">
           <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-yellow-100 text-3xl">
             💛
           </div>
@@ -114,7 +114,7 @@ const Sobre = () => {
 
         <a
           href="/contato"
-          className="mt-6 inline-block rounded-full bg-yellow-400 px-8 py-3 font-bold text-purple-900 transition-colors duration-300 hover:bg-yellow-300 focus:outline-none focus:ring-2 focus:ring-yellow-300 focus:ring-offset-2 focus:ring-offset-purple-700"
+          className="mt-6 inline-block rounded-full bg-yellow-400 px-8 py-3 font-bold text-purple-900 transition-colors duration-300 hover:bg-yellow-300"
         >
           Entre em contato
         </a>
